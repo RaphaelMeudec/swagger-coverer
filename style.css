@@ -1,0 +1,34 @@
+body h2 {
+  margin-bottom: 50px;
+}
+
+body hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section {
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.section form {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section form textarea {
+  width: 100%;
+  min-height: 400px;
+}
+
+.section form input[type="text"] {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}

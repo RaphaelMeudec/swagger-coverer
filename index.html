@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="section">
+      <h1>Swag Generator</h1>
+      <h2>Generate your Swagger file easily!</h2>
+    </div>
+    <div class="section">
+      <form id="request-form">
+        <input type="text" id="request-url" placeholder="https://api.is.bnpparibas-ip.com/push/fundsearchv2/IP_FR-FAD/FRE"/>
+        <input type="submit" value="Extract >>" />
+      </form>
+
+      <!-- <form id="json-form">
+        <textarea type="text" id="json-file" placeholder="Copy your json example here..."></textarea>
+        <input type="submit" value="Convert >>" />
+      </form> -->
+
+      <form>
+        <textarea type="text" id="swagger-file" placeholder="Your swagger will appear here..."></textarea>
+      </form>
+    </div>
+    <div class="section">
+      <p>Made by BNP Galaxy</p>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</html>
