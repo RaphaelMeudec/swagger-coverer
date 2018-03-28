@@ -140,4 +140,4 @@ function handleRequestSubmit(event) {
 }
 
 document.getElementById('request-form').onsubmit = handleRequestSubmit;
-// document.getElementById('json-form').onsubmit = handleJsonSubmit;
+document.getElementById('json-form').onsubmit = handleJsonSubmit;
